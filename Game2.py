@@ -2,6 +2,7 @@
 import random
 
 def play_game():
+  """Creates a single round of Rock, Paper, Scissors"""
   user_choice =int(input("Enter your choice: 1. paper, 2. scissors, 3. rock:"))
   if user_choice < 1 or user_choice > 3:
       print("Invalid choice! Choose 1, 2, or 3")
