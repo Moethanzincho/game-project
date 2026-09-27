@@ -1,7 +1,7 @@
 #main.py
 
 import guessing_game 
-import play_game 
+import rock_paper_scissors
 
 def choose_game():
     """Displays game menu inside a loop and ask the player to choose Game 1 or Game 2.
