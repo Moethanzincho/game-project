@@ -19,7 +19,7 @@ def run_game(choice):
     if choice == "1":
         guessing_game.guessing_game()
     else:
-        rock_paper_scissors.play_game()
+        rock_paper_scissors.rock_paper_scissors()
  
  
 def after_game():
