@@ -1,6 +1,6 @@
 #main.py
 
-import guessinggame 
+import guessing_game 
 import play_game 
 
 def choose_game():
@@ -17,7 +17,7 @@ def run_game(choice):
     """Calls the game function that matches the user's choice.
     Author: Moe"""
     if choice == "1":
-        guessing_game.guessinggame()
+        guessing_game.guessing_game()
     else:
         rock_paper_scissors.play_game()
  
