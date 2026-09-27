@@ -42,7 +42,7 @@ def main():
         if answer == "S":
             choice = choose_game()
         elif answer == "Q":
-            print("Thanks for playing! Goodbye.")
+            print("Thanks for playing!")
             break
  
  
