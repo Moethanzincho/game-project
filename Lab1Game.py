@@ -8,7 +8,11 @@ Date: September 27, 2026 """
 
 import random
 
-'''Guessing game function that generates a random number between 1 and 100, and gives the user 5 attempts to guess what number it is, giving feedback to the user on whether their guess was higher or lower than the random number
+'''Guessing game function that generates a random number between 1 and 100.
+   Gives the user 5 attempts to guess what number it is.
+   After each guess, it gives feedback to the user on whether their guess was higher or lower than the random number.
+   After either guessing the correct number or guessing 5 times incorrectly, the user is met with a congrats message or a lose message revealing the number respectively.
+   The user can choose to keep playing this game using Y/N,running the function again if the user chooses Y, ending the loop if the user chooses N.
    Author: Milo Stretton'''
 def guessing_game():
         num = random.randint(1,100)
@@ -34,8 +38,10 @@ import random
 
 def rock_paper_scissors():
   """Runs a single round of Rock, Paper, Scissors against a computer opponent.
+  The user will choose (Y/N) to begin the game. 
   The user will input a number between 1 and 3, then a random choice will be generated
-   by the computer and determine a winner. The answer will be printed and return to the beginning. 
+   by the computer and determine a winner or draw. 
+   The results will be printed and prompt the user to play again. 
    Authors: Julia Ueligitone"""
   user_choice =int(input("Enter your choice: 1. paper, 2. scissors, 3. rock:"))
   if user_choice < 1 or user_choice > 3:
