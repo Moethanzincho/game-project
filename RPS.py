@@ -1,12 +1,9 @@
 # Game 2: Rock, Paper, Scissors
-"""Authors : Julia Ueligitone
-This Game 2 will allow a user to play multiple rounds of Rock, Paper, Scissors 
-with a random computer opponent."""
 
 import random
 
 def rock_paper_scissors():
-   """Runs a single round of Rock, Paper, Scissors against a computer opponent.
+  """Runs a single round of Rock, Paper, Scissors against a computer opponent.
   The user will choose (Y/N) to begin the game. 
   The user will input a number between 1 and 3, then a random choice will be generated
    by the computer and determine a winner or draw. 
