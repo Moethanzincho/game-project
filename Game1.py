@@ -4,7 +4,7 @@ import random
 
 '''Guessing game function that generates a random number between 1 and 100, and gives the user 5 attempts to guess what number it is, giving feedback to the user on whether their guess was higher or lower than the random number
    Author: Milo Stretton'''
-def guessinggame():
+def guessing_game():
         num = random.randint(1,100)
         guess = int(input("I'm thinking of a number between 1 and 100.\nGuess what it is. You have 5 tries: "))
         num_of_guesses = 4
@@ -24,5 +24,5 @@ def guessinggame():
 if __name__ == "__main__":
     cont = 'Y'
     while cont == 'Y':
-        guessinggame()
+        guessing_game()
         cont = input("Do you want to play again? (Y/N): ")
