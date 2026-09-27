@@ -6,9 +6,12 @@ with a random computer opponent."""
 import random
 
 def rock_paper_scissors():
-  """Runs a single round of Rock, Paper, Scissors against a computer opponent.
+   """Runs a single round of Rock, Paper, Scissors against a computer opponent.
+  The user will choose (Y/N) to begin the game. 
   The user will input a number between 1 and 3, then a random choice will be generated
-   by the computer and determine a winner. The answer will be printed and return to the beginning. """
+   by the computer and determine a winner or draw. 
+   The results will be printed and prompt the user to play again. 
+   Authors: Julia Ueligitone""
   user_choice =int(input("Enter your choice: 1. paper, 2. scissors, 3. rock:"))
   if user_choice < 1 or user_choice > 3:
       print("Invalid choice! Choose 1, 2, or 3")
