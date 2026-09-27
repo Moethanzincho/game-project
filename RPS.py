@@ -23,3 +23,10 @@ def rock_paper_scissors():
     print("You win!")
   else:
     print("Computer wins!")
+
+if __name__ == "__main__":
+    start_play = input("Do you want to play? (Y/N)").strip().lower()
+
+    while start_play == "y":
+        rock_paper_scissors()
+        start_play = input("Do you want to play again? (Y/N)").strip().lower()
